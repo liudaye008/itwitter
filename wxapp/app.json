@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/join/join",
+    "pages/datail/datail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1ca1f2",
+    "navigationBarTitleText": "i 推特",
+    "backgroundColor": "#fff",
+    "navigationBarTextStyle":"light",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "selectedColor":"#2e5e86",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home_a.png",
+        "selectedIconPath" : "images/home_b.png",
+        "text": "首页"
+        
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/join_a.png",
+        "selectedIconPath": "images/join_b.png",                
+        "text": "我说"
+      }
+    ]
+  }
+}

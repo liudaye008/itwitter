@@ -1,0 +1,13 @@
+page{
+  padding: 30rpx;
+}
+.center{
+  width: 90%;
+  text-indent: 2em;
+  margin:20rpx 0;
+}
+.wxcode{
+  background-color: #f2f2f2;
+  padding: 10rpx 20rpx;
+  border-radius: 20rpx;
+}

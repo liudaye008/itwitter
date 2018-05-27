@@ -1,0 +1,15 @@
+<image src='https://twitter.mbook.vip/images/ituiteBg.png' class='bannerimg'></image>
+
+<view class='items-list'>
+  <view class='pro-item' wx:for="{{proList}}" bindtap='toDetail' data-index='{{index}}'>
+    <image class='pro-logo' src='{{item.headPic}}'></image>
+    <view class='pro-body'>
+      <view class='pro-title'>{{item.name}}</view>
+      <text class='pro-desc'>{{item.introduction}}</text>
+      <view class='personal-location'>
+      <image class='personal-location-icon' src='/images/location.png'></image>              
+      <view class='personal-location-address'>{{item.location}}</view>
+    </view>
+    </view>
+  </view>
+</view>

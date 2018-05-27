@@ -1,0 +1,52 @@
+/* iterms-list */
+.items-list{
+
+}
+.bannerimg {
+  width: 100%;
+  height: 300rpx;
+}
+.slide-image{
+  width: 100%;
+}
+.pro-item{
+  overflow: hidden;
+  padding: 30rpx;
+}
+.pro-logo{
+  float: left;
+  width: 190rpx;
+  height: 190rpx;
+}
+.pro-body{
+  margin-left: 210rpx;
+}
+.pro-title{
+  color: #212121;
+  font-size: 40rpx;
+  line-height: 1;
+}
+.pro-desc{
+  font-size: 30rpx;
+  color: #9a9a9a;
+  line-height: 0.2;
+}
+.btn-detail{
+  float: left;
+  width: 170rpx;
+  height: 52rpx;
+}
+.personal-location{
+  font-size: 25rpx;
+  margin-top: 10rpx;
+}
+.personal-location-icon{
+  width: 30rpx;
+  height: 30rpx;
+  display: block;
+  float: left;
+}
+.personal-location-address{
+  float: left;
+  margin-left: 10rpx;
+}

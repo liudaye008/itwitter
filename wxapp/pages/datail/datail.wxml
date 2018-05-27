@@ -1,0 +1,37 @@
+<scroll-view scroll-y="true" style="height: 100%;" bindscrolltolower='loadMore' bindscroll="scroll">
+
+<image class="banner" src="{{userMessage.bgPic}}"></image>
+<view class='personal-msg'>
+  <image class='personal-pic' src='{{userMessage.headPic}}'></image>
+  <view class='personal-detail'>
+    <view class='personal-name'>{{userMessage.name}}</view>
+    <view class='personal-desc'>{{userMessage.introduction}}</view>
+    <view class='personal-location'>
+      <image class='personal-location-icon' src='/images/location.png'></image>              
+      <view class='personal-location-address'>{{userMessage.location}}</view>
+    </view>
+  </view>
+</view>
+<view></view>
+
+  <view class='block' wx:for="{{dataList}}" bindtap='toDetail' data-index='{{index}}'>  
+    <view class='block-time'>
+      <text>{{index + 1}}.  </text>
+      <image class='block-time-icon' src='/images/date.png'></image>
+      <text class='block-time-content'>{{item.itime}}</text>
+    </view>
+    <view class='block-title'>英：</view>
+    <text class='block-desc'>{{item.english}}</text>
+    <view class='block-title'>中：</view>
+    <text class='block-desc'>{{item.zhongwen}}</text>
+  </view>
+<view class="tips1">
+    <view wx:if="{{hasMore}}">
+      <text>玩命的加载中...</text>
+    </view>
+    <view wx:else>
+      <text>没有更多内容了</text>
+    </view>
+</view>
+</scroll-view>
+

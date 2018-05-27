@@ -1,0 +1,3 @@
+
+<view class='center'>{{gonggao}}</view>
+我的微信号：<text class='wxcode' bindtap="copyTBL">xing615742973</text>
